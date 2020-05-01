@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "629ece4af82df01b925ef5f999f67117",
+    "revision": "cc53d26b0859a4a1849fb64c0e298326",
     "url": "/empathy-game/index.html"
   },
   {
-    "revision": "bd1406542551ffff33c2",
+    "revision": "8781583514c52da82dc0",
     "url": "/empathy-game/static/css/main.d1b05096.chunk.css"
   },
   {
-    "revision": "71b7d91ce7f893e08e03",
-    "url": "/empathy-game/static/js/2.88b60e3f.chunk.js"
+    "revision": "40f0b7e171ac0765ee98",
+    "url": "/empathy-game/static/js/2.f6893673.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/empathy-game/static/js/2.88b60e3f.chunk.js.LICENSE.txt"
+    "url": "/empathy-game/static/js/2.f6893673.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd1406542551ffff33c2",
-    "url": "/empathy-game/static/js/main.f3345cad.chunk.js"
+    "revision": "8781583514c52da82dc0",
+    "url": "/empathy-game/static/js/main.8c497c84.chunk.js"
   },
   {
     "revision": "238ab30e65de05162df4",
