@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/empathy-game/static/css/main.d1b05096.chunk.css",
-    "main.js": "/empathy-game/static/js/main.0188ca6f.chunk.js",
-    "main.js.map": "/empathy-game/static/js/main.0188ca6f.chunk.js.map",
+    "main.js": "/empathy-game/static/js/main.f3345cad.chunk.js",
+    "main.js.map": "/empathy-game/static/js/main.f3345cad.chunk.js.map",
     "runtime-main.js": "/empathy-game/static/js/runtime-main.0734816d.js",
     "runtime-main.js.map": "/empathy-game/static/js/runtime-main.0734816d.js.map",
-    "static/js/2.c1c2bca8.chunk.js": "/empathy-game/static/js/2.c1c2bca8.chunk.js",
-    "static/js/2.c1c2bca8.chunk.js.map": "/empathy-game/static/js/2.c1c2bca8.chunk.js.map",
+    "static/js/2.88b60e3f.chunk.js": "/empathy-game/static/js/2.88b60e3f.chunk.js",
+    "static/js/2.88b60e3f.chunk.js.map": "/empathy-game/static/js/2.88b60e3f.chunk.js.map",
     "index.html": "/empathy-game/index.html",
-    "precache-manifest.98e4287e8d2e047b7047ff56ca560c92.js": "/empathy-game/precache-manifest.98e4287e8d2e047b7047ff56ca560c92.js",
+    "precache-manifest.53d027a971d5dd4eb8a6543cee3ebe2f.js": "/empathy-game/precache-manifest.53d027a971d5dd4eb8a6543cee3ebe2f.js",
     "service-worker.js": "/empathy-game/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/empathy-game/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.c1c2bca8.chunk.js.LICENSE.txt": "/empathy-game/static/js/2.c1c2bca8.chunk.js.LICENSE.txt",
+    "static/js/2.88b60e3f.chunk.js.LICENSE.txt": "/empathy-game/static/js/2.88b60e3f.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/empathy-game/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0734816d.js",
-    "static/js/2.c1c2bca8.chunk.js",
+    "static/js/2.88b60e3f.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.0188ca6f.chunk.js"
+    "static/js/main.f3345cad.chunk.js"
   ]
 }
