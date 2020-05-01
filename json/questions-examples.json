@@ -59,7 +59,7 @@
         ]
     },
     "4": {
-        "query": "question id 5 template?",
+        "query": "question id 4 template?",
         "response": [
             {
                 "text": "GOTO 2",
