@@ -1,30 +1,30 @@
 {
     "1": {
-        "query": "question id 1 template?",
+        "query": "A cidadea que chegaste é grande, tem um ri e, claro, imensas estradas. Tudo isto pode levar-te para países vizinhos. Como queres continuar a tua jornada?",
         "response": [
             {
-                "text": "GOTO 2",
+                "text": "Avançar de barco",
                 "goto_id": "2"
             },
             {
-                "text": "GOTO 3",
+                "text": "Avançar de comboio",
                 "goto_id": "3"
             },
             {
-                "text": "GOTO 4",
+                "text": "Avançar de carro",
                 "goto_id": "4"
             }
         ]
     },
     "2": {
-        "query": "question id 2 template?",
+        "query": " O rio que atravessa a cidade vai eventualmente dar ao mar e vários barcos partem de lá para outros países. Contudo, muitos poucos permitem que passageiros entrem e seria impossível de conseguir um bilhete sem o teu passaporte. Que fazes?",
         "response": [
             {
-                "text": "GOTO 1",
+                "text": "Pede ajuda a alguém e espera que o melhor aconteça.",
                 "goto_id": "1"
             },
             {
-                "text": "GOTO 3",
+                "text": "Tentas entrar à socapa no barco sem ninguém notar",
                 "goto_id": "3"
             },
             {
