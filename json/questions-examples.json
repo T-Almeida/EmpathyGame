@@ -38,10 +38,10 @@
         ]
     },
     "3": {
-        "query": "question id 3 template?",
+        "query": "Tu metes-te na traseira de um camião que parou na bomba de combustível, desejando que ele dirija na direção correta. Está muito quente e cheira terrivelmente mal. Quase não te consegues mexer no pequeno espaço onde estás e sentes que o oxigénio não é suficiente. Algumas horas depois, o camião para numa área de serviço e o camionista descobre-te",
         "response": [
             {
-                "text": "GOTO 2",
+                "text": "Avançar",
                 "goto_id": "2"
             },
             {
@@ -59,14 +59,14 @@
         ]
     },
     "4": {
-        "query": "question id 4 template?",
+        "query": "Decides levar emprestado um pequeno carro azul de um amigo teu e começar a tua aventura até à fronteira. Evitas as estradas principais com o medo de encontrar a policia. Na noite do terceiro dia, encontras uma pequena criança sentada na beira da estrada com o cabelo sujo e roupas velhas. Abrandas o carro e ela diz-te que está com frio e fome. Quase já não tens dinhieor nem comida, e não sabes quanto mais vais ter de viajar.",
         "response": [
             {
-                "text": "GOTO 2",
-                "goto_id": "2"
+                "text": "Dás-lhe alguns dos teus pertences",
+                "goto_id": "7"
             },
             {
-                "text": "GOTO 3",
+                "text": "Pede desculpa e continua",
                 "goto_id": "3"
             },
             {
@@ -76,7 +76,24 @@
         ]
     },
     "5": {
-        "query": "question id 5 template?",
+        "query": "Não consegues comprar bilhetes de comboio sem permissão nem visto, pelo que a tua única opção é esquivares-te para dentro de um comboio e esperar o melhor. Em breve, o comboio começa a andar. Na próxima paragem, o revisor entra na tua carruagem. Sem tempo de reação, pede-te o bilhete. Sem bilhete, és expulso do comboio. Uma das pessos que acompanhava, escondeu-se debaixo de um assento e ficou dentro do veículo sem ser detetado. Remove uma pessoa da tua lista. Após este evento não violento, foste expulso da estação de comboios",
+        "response": [
+            {
+                "text": "Avança para o início",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+            }
+        ]
+    },
+    "6": {
+        "query": "question id 6 template?",
         "response": [
             {
                 "text": "GOTO 1",
@@ -89,7 +106,241 @@
             {
                 "text": "GOTO 4",
                 "goto_id": "4"
-            }
+                  }
         ]
-    }
+    },
+    "7": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "8": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "9": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "10": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "11": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "12": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "13": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "14": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "15": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "16": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "17": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"  }
+        ]
+    },
+    "18": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "19": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "20": {
+        "query": "question id 6 template?",
+        "response": [
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
 }
