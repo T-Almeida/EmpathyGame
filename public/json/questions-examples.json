@@ -296,7 +296,8 @@
             },
             {
                 "text": "GOTO 4",
-                "goto_id": "4"  }
+                "goto_id": "4"  
+            }
         ]
     },
     "18": {
@@ -317,7 +318,7 @@
         ]
     },
     "19": {
-        "query": "Vários dias depis, o barco chega a um novo cais. Sais cuidadosamente do teu esconderijo e vês sinais de trânsito numa língua que desconheces. Finalmente percebes que chegaste ao teu destino, e enquanto os outros estão a coletas as bagagens, tu sais do navio. ",
+        "query": "Vários dias depois, o barco chega a um novo cais. Sais cuidadosamente do teu esconderijo e vês sinais de trânsito numa língua que desconheces. Finalmente percebes que chegaste ao teu destino, e enquanto os outros estão a coletas as bagagens, tu sais do navio. ",
         "response": [
             {
                 "text": "Avançar",
@@ -346,12 +347,12 @@
             },
             {
                 "text": "GOTO 4",
-                "goto_id": "4
+                "goto_id": "4"
             }
         ]
     },
     "21": {
-        "query": "Percebes que não tens nenhuma oportunidade de fazer o que quer que seja, tendo em conta as condições. É melhor não te cololcar a ti nem à tua familia em risco. Decides fechar os olhos, rezar e esperar que o motor se volte a ligar.",
+        "query": "Percebes que não tens nenhuma oportunidade de fazer o que quer que seja, tendo em conta as condições. É melhor não te colocar a ti nem à tua familia em risco. Decides fechar os olhos, rezar e esperar que o motor se volte a ligar.",
         "response": [
             {
                 "text": "Avançar",
@@ -393,7 +394,7 @@
        ]
     },
     "23": {
-        "query": "Chegaste a um país seguro, o que não significa que estás em seguranlça. Sem teres permissão de ficar no país, tens receio de ser apanhado e enviado de volta - o que já aconteceu a alguns amigos teus. Além disso, perguntas-te se este será o último país no qual estarás, ou se terás de ir para outro local.",
+        "query": "Chegaste a um país seguro, o que não significa que estás em segurança. Sem teres permissão de ficar no país, tens receio de ser apanhado e enviado de volta - o que já aconteceu a alguns amigos teus. Além disso, perguntas-te se este será o último país no qual estarás, ou se terás de ir para outro local.",
         "response": [
             {
                 "text": "Contacta os serviços de migração.",
