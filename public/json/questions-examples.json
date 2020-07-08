@@ -106,7 +106,7 @@
             {
                 "text": "GOTO 4",
                 "goto_id": "4"
-                  }
+            }
         ]
     },
     "7": {
@@ -433,7 +433,7 @@
                 "text": "GOTO 5",
                 "goto_id": "5"
             }
-            ]
+         ]
     },
     "25": {
         "query": "Sem confiar totalmente nas autoridades, decides manter-te sem documentos no novo país. Encontras-te uma organização disposta a ajudar-te com comid e alojamento apesar de ser dificil arranjar um novo emprego com condições aceitáveis- principalmente quando não falas a língua nativa. Partilhas apartamento com outra família numa situação semelhante. Um dia, a polícia entra no partamento enquanto dormes. Pedem-te os documentos legais. Como não os tens, és levado para o Centro de Detenção.",
@@ -454,7 +454,7 @@
                 "text": "GOTO 5",
                 "goto_id": "5"
             }
-            ]
+        ]
     }
 }
 
