@@ -1,0 +1,460 @@
+{
+    "1": {
+        "query": "A cidadea que chegaste é grande, tem um ri e, claro, imensas estradas. Tudo isto pode levar-te para países vizinhos. Como queres continuar a tua jornada?",
+        "response": [
+            {
+                "text": "Avançar de barco",
+                "goto_id": "2"
+            },
+            {
+                "text": "Avançar de comboio",
+                "goto_id": "3"
+            },
+            {
+                "text": "Avançar de carro",
+                "goto_id": "4"
+            }
+        ]
+    },
+    "2": {
+        "query": " O rio que atravessa a cidade vai eventualmente dar ao mar e vários barcos partem de lá para outros países. Contudo, muitos poucos permitem que passageiros entrem e seria impossível de conseguir um bilhete sem o teu passaporte. Que fazes?",
+        "response": [
+            {
+                "text": "Pede ajuda a alguém e espera que o melhor aconteça.",
+                "goto_id": "1"
+            },
+            {
+                "text": "Tentas entrar à socapa no barco sem ninguém notar",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+            },
+            {
+                "text": "GOTO 5",
+                "goto_id": "5"
+            }
+        ]
+    },
+    "3": {
+        "query": "Tu metes-te na traseira de um camião que parou na bomba de combustível, desejando que ele dirija na direção correta. Está muito quente e cheira terrivelmente mal. Quase não te consegues mexer no pequeno espaço onde estás e sentes que o oxigénio não é suficiente. Algumas horas depois, o camião para numa área de serviço e o camionista descobre-te",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "2"
+            },
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+            },
+            {
+                "text": "GOTO 5",
+                "goto_id": "5"
+            }
+        ]
+    },
+    "4": {
+        "query": "Decides levar emprestado um pequeno carro azul de um amigo teu e começar a tua aventura até à fronteira. Evitas as estradas principais com o medo de encontrar a policia. Na noite do terceiro dia, encontras uma pequena criança sentada na beira da estrada com o cabelo sujo e roupas velhas. Abrandas o carro e ela diz-te que está com frio e fome. Quase já não tens dinhieor nem comida, e não sabes quanto mais vais ter de viajar.",
+        "response": [
+            {
+                "text": "Dás-lhe alguns dos teus pertences",
+                "goto_id": "7"
+            },
+            {
+                "text": "Pede desculpa e continua",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 5",
+                "goto_id": "5"
+            }
+        ]
+    },
+    "5": {
+        "query": "Não consegues comprar bilhetes de comboio sem permissão nem visto, pelo que a tua única opção é esquivares-te para dentro de um comboio e esperar o melhor. Em breve, o comboio começa a andar. Na próxima paragem, o revisor entra na tua carruagem. Sem tempo de reação, pede-te o bilhete. Sem bilhete, és expulso do comboio. Uma das pessos que acompanhava, escondeu-se debaixo de um assento e ficou dentro do veículo sem ser detetado. Remove uma pessoa da tua lista. Após este evento não violento, foste expulso da estação de comboios",
+        "response": [
+            {
+                "text": "Avança para o início",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+            }
+        ]
+    },
+    "6": {
+        "query": "Tentas saber o que se está a passar fora do camião, apesar dos riscos. Tentas empurrar a porta só um bocadinho, mas a porta abre-se de rompante. Três pares de olhos estão fixos em ti: o condutor, outro homem, e uma rapariga ajoelhada à frente deles. O condutor berra contigo enquanto te empurra contra as paredes. A última coisa da qual te consegues lembrar é de um punho a voar contra a tua cara",
+        "response": [
+            {
+                "text": "Remove todos os itens da tua lista",
+                "goto_id": "16"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+            }
+        ]
+    },
+    "7": {
+        "query": "A pequena rapariga agradece-te com um sorriso na cara e com lágrimas, tu prossegues a viagem",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "12"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "8": {
+        "query": "O tempo passa e a sutação a bordo torna-se cada ver pior apesar de o tempo ter acalmado. Muitas pessoas, especialmente crianças e idosos, ficaram doentes e quase já não há comida. Raramente vês os contrabandistas e eles não respondem a nenhuma das tuas questões. Chegam a uma marina. Os contrabandistas entram e começam a gritar com toda a gente para sair. Tu pegas nas tuas coisas e abandonas o barco, quando vês sinais com uma língua estrangeira e percebes que chegaste ao teu destino",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "23"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "9": {
+        "query": "Sem opção, continuas a tua viagem até que chegas à fronteira.À distância, consegues ver o muro com arame farpado e militares armados prevenindo a passagem de cidadãos. Decides abandonar o carro e continuar a pé. Ouviste dizer que há menos guardas nas montanhas mais a Norte. Após andares muitas horas a pé, chegas a um local sem vigia. Consegues saltar o muro, mas alguns pertences caem-te. Retira um item da tua lista. Finalmente passaste a fronteira",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "23"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "10": {
+        "query": "Contas-lhe que um familiar teu que vive num país vizinho ficou doente. A situação é muito urgente e tu não tiveste tempo para pedir permissão para entrar no país. Imploras-lhe que te ajude. Ele lamenta a situação mas devido às severas consequências para as pessoas que ajudam outras a fazer o que lhe estás a pedir sem documentos ele não te poderá ajudar",
+        "response": [
+            {
+                "text": "Volta para o ínicio",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "11": {
+        "query": "Quando a noite cai, procuras abrigo debaixo do navio. Uma hora após a partida, o motor pára subitamente. Ouves gritos e barulhos de pessoas a correr. Pessoas com roupas escuras passam por ti sem te notarem. Piratas. Quando voltam, ouves gritos com uma voz familiar, e vês os piratas a arrastar duas pessoas. Remove duas pessoas da tua lista. Também levam os teus pertences, remove-os da tua lista. Ouves o barco deles a zarpar, e a jornada continua.",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "19"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "12": {
+        "query": "Continuas a conduzir sem te atreveres a parar ou descansar. À noite, já bastante tarde, chegas a casa de uns familiares, que ficam felizes mas surpresos por te verem. O teu primo convida-te a pernoitares no alpendre do jardim. Após vários dias sem descansares propriamente, já tinhas saudades de um local seguro para dormir, pelo que agradeces a oferta.",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "15"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "13": {
+        "query": "Tentas convencer o motorista a não chamar a polícia e ele aceita levar-te À fronteira se lhe deres dois dos teus pertences. Remove-os da tua lista. Antes de fechar a porta, o condutor agarra uma outra pessoa pelo braço, forçando-a a sair do camião sem teres tempo de reagir. Quem foi puxado? Remove uma pessoa da tua lista. Após uns minutos, ouves o motor a ligar e a jornada continua.",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "18"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "14": {
+        "query": "O dinheiro que tens só é suficiente para uma pessoa. Contudo, se uma pessoa ficar sob a suerpvisão dele e prometeres pagar o resto mais tarde, ele pode permitir que sigam juntos. Ficares não é uma opção - é demasiado arriscado. O que decides fazer?",
+        "response": [
+            {
+                "text": "Vais sozinho. Elimina o resto do dinheiro da tua lista",
+                "goto_id": "20"
+            },
+            {
+                "text": "Deixas uma pessoa para trás. Elimina o nome dessa pessoa e remove o dinheiro da tua lista.",
+                "goto_id": "3"
+            },
+            {
+                "text": "Escolhe uma pessoa da tua lista. Remove-a da tua lista.",
+                "goto_id": "1"
+            },
+            {
+                "text": "Recusa a oferta",
+                "goto_id": "1"
+                  }
+        ]
+    },
+    "15": {
+        "query": "A meio da noite, acordas com barulhos vindos da casa e vês um carro estranho pela janela. Percebes que alguém chamou a polícia para não entrarem em sarilhos. Tu saltas pela janela, corres até ao carro e ligas o motor sem dar tempo à polícia de reagir. Contudo, apercebes-te que nem todos estão no carro. Quem falta? Não podes voltar atrás. Remove um nome da tua lista.",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "9"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "16": {
+        "query": "Quando abres os olhos de novo, tudo continua muito escuro. Os sons são abafados pelo barulho do motor e estás com uma enxaqueca muito forte. Tentas falar contigo próprio e cantar para ocupar o tempo. A porta abre-se e o condutor entra abruptamente. Expulsa-vos do camião sem proferir uma única palavra, fecha a porta e segue o seu caminho. Avistas sinais numa língua estrangeira. Passaste a fronteira",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "23"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "17": {
+        "query": "Vais ter com uma pessoa que te parece simpática o suficiente para te ajudar. O que lhe contas?",
+        "response": [
+            {
+                "text": "Dizes a verdade e esperas que não te denuncie à polícia.",
+                "goto_id": "22"
+            },
+            {
+                "text": "Investas rapidamente uma história que pareça plausível.",
+                "goto_id": "10"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"  
+            }
+        ]
+    },
+    "18": {
+        "query": "Na escuridão do camião, perdeste por completo a noção de tempo. Só sentes a fome a dor dos teus músculos por continuares a bater nas paredes do camião e nos contentores. Após muitas horas, ou talvez dias, o camião pára novamente. Ninguém abre a porta e tu não te atreves a mexer. Consegues ouvir vozes abafadas,e, de repente, uma rapariga a gritar. Os sons e gritos multiplicam-se. O que fazes?",
+        "response": [
+            {
+                "text": "Ficas onde estás",
+                "goto_id": "21"
+            },
+            {
+                "text": "Tentas sair do camião",
+                "goto_id": "6"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "19": {
+        "query": "Vários dias depois, o barco chega a um novo cais. Sais cuidadosamente do teu esconderijo e vês sinais de trânsito numa língua que desconheces. Finalmente percebes que chegaste ao teu destino, e enquanto os outros estão a coletas as bagagens, tu sais do navio. ",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "23"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+                  }
+        ]
+    },
+    "20": {
+        "query": "O contrabandista leva-te, juntamente com centenas de outras pessoas, para um pequeno e velho barco a motor. Questionas se o barco é seguro, mas tens que continuar a avançar. Após algumas horas, uma tempestade ataca. As ondas fortes levam as pessoas a chorar, gritar e rezar. Depois daquilo que parece uma eternidade, a tempestade acalma. Adormeces. Acordas com o som de vozes agressivas e botas pesadas - polícia fronteiriça. Estão a discutir numa linguagem que não compreendes. Os contrabandistas dão diferentes objetos à polícia, indo embora de seguida.",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "8"
+            },
+            {
+                "text": "GOTO 3",
+                "goto_id": "3"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id":  "4"
+            }
+        ]
+    },
+    "21": {
+        "query": "Percebes que não tens nenhuma oportunidade de fazer o que quer que seja, tendo em conta as condições. É melhor não te colocar a ti nem à tua familia em risco. Decides fechar os olhos, rezar e esperar que o motor se volte a ligar.",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "16"
+            },
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+            },
+            {
+                "text": "GOTO 5",
+                "goto_id": "5"
+            }
+        ]
+    },
+    "22": {
+        "query": "Cuidadosamente explicas que a tua vida pode estar em perigo se ficares no país. Imploras por ajuda. Após um longo tempo, a pessoa decide ajudar-te a entrar num dos barcos.",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "11"
+            },
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+            },
+            {
+                "text": "GOTO 5",
+                "goto_id": "5"
+            }
+       ]
+    },
+    "23": {
+        "query": "Chegaste a um país seguro, o que não significa que estás em segurança. Sem teres permissão de ficar no país, tens receio de ser apanhado e enviado de volta - o que já aconteceu a alguns amigos teus. Além disso, perguntas-te se este será o último país no qual estarás, ou se terás de ir para outro local.",
+        "response": [
+            {
+                "text": "Contacta os serviços de migração.",
+                "goto_id": "24"
+            },
+            {
+                "text": "Evita os serviços de migração",
+                "goto_id": "25"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+            },
+            {
+                "text": "GOTO 5",
+                "goto_id": "5"
+            }
+            ]
+    },
+    "24": {
+        "query": "Decidiste candidatar-te para receber permissão para ficar neste país, na expectativa de teres uma casa estável, seja só para desenrascar ou seja para ficar de vez. Podes encontrar os formulários de candidatura no Centro de Migração. Preenche-os e entrega-os aos funcionários de migração",
+        "response": [
+            {
+                "text": "Avançar",
+                "goto_id": "2"
+            },
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+            },
+            {
+                "text": "GOTO 5",
+                "goto_id": "5"
+            }
+         ]
+    },
+    "25": {
+        "query": "Sem confiar totalmente nas autoridades, decides manter-te sem documentos no novo país. Encontras-te uma organização disposta a ajudar-te com comid e alojamento apesar de ser dificil arranjar um novo emprego com condições aceitáveis- principalmente quando não falas a língua nativa. Partilhas apartamento com outra família numa situação semelhante. Um dia, a polícia entra no partamento enquanto dormes. Pedem-te os documentos legais. Como não os tens, és levado para o Centro de Detenção.",
+        "response": [
+            {
+                "text": "GOTO 2",
+                "goto_id": "2"
+            },
+            {
+                "text": "GOTO 1",
+                "goto_id": "1"
+            },
+            {
+                "text": "GOTO 4",
+                "goto_id": "4"
+            },
+            {
+                "text": "GOTO 5",
+                "goto_id": "5"
+            }
+        ]
+    }
+}
+
