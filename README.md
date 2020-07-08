@@ -1,3 +1,3 @@
 # EmpathyGame
 
-The most updated version occurs on the gh-pages branch
+Pushes to the master branch triggers an build and deploy action to the gh-pages branch 
