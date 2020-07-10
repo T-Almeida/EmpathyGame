@@ -25,14 +25,16 @@ const Game = () => {
     setCurrentQuestionId(id);
   };
 
+  const currentData = data === null ? null : data.data[currentQuestionId];
+
   return data === null ? (
     <h1>Loading </h1>
   ) : (
     <div>
-      <Question id={currentQuestionId} question={data.data} />
+      <Question id={currentQuestionId} question={currentData.query} />
       <Options
         id={currentQuestionId}
-        options={data.data}
+        options={currentData.response}
         updateQuestionId={updateQuestionId}
       />
     </div>

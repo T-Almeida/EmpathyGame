@@ -1,9 +1,7 @@
 import React from 'react';
 
 const Options = (props) => {
-  const questions = props.options[props.id].response;
-
-  return questions.map((answer) => {
+  return props.options.map((answer) => {
     return (
       <button
         onClick={() => props.updateQuestionId(answer.goto_id)}
